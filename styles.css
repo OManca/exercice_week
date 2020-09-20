@@ -1,0 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: darkorange;
+}
+
+.navbar {
+	background-color: #333;
+	color: white;
+}
+
+.navbar > ul.nav-tabs {
+	display: flex;
+	justify-content: center;
+}
+
+ul.nav-tabs {
+	text-align: center;
+}
+
+ul.nav-tabs > li {
+	width: 15em;
+}
+
+ul.nav-tabs > li > a {
+	display: block;
+	padding: 1em 2em;
+}
+
+.nav-hover-container {
+	position: relative;
+}
+
+.nav-hover {
+	visibility: hidden;
+	position: absolute;
+	background-color: #333;
+}
+
+.nav-hover-container:hover .nav-hover {
+	visibility: visible;
+}
