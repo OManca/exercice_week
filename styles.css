@@ -58,6 +58,9 @@ ul.nav-tabs > li > a {
 .nav-hover-container:hover .nav-hover {
 	visibility: visible;
 }
+.rouge {
+color: red;
+}
 
 .share {
   border: 1px solid LightGrey;
