@@ -16,3 +16,11 @@ if ((anneeEnCours >= 30000) && (anneeEnCours <= 60000)) {
 console.log(reduction)
 console.log((anneeEnCours / 100) * reduction)
 
+var anneeEnCours = 2020;
+var anneeSaisie = parseInt (prompt ('Quel age avez vous ?'));
+if ((anneeEnCours - anneeSaisie) <= 18) {
+    console.log('vous êtes mineur');
+} else {
+    console.log('Vous êtes majeur');
+}
+
